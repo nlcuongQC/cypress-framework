@@ -1,0 +1,67 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 3,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user opens My Account Menu",
+            "result": {
+              "duration": 5193000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "my-account---login;valid-username-and-password",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Valid username and password",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "A user login with registered account",
+            "result": {
+              "duration": 2308000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should login successfully",
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "my-account---login",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "My Account - Login",
+    "uri": "cypress\\e2e\\features\\login.feature"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "ES2021",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node",
+      "cypress-real-events",
+      "cypress-xpath",
+      "cypress-file-upload",
+      "cy-verify-downloads"
+    ]
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}

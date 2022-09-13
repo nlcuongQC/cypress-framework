@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "@faker-js/faker": "^7.5.0",
+    "cy-verify-downloads": "^0.1.8",
+    "cypress": "^10.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.2.2",
+    "cypress-real-events": "^1.7.1",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^2.0.0",
+    "node-xlsx": "^0.21.0",
+    "typescript": "^4.8.3"
+  },
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open --e2e --browser chrome",
+    "cypress-run": "cypress run --browser chrome --record --key 4af110a8-fe17-46b8-a474-9a8d451f0314"
+  },
+  "author": "Cường Nguyễn",
+  "license": "ISC",
+  "description": ""
+}
